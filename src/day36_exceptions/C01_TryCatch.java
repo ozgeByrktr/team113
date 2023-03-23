@@ -30,6 +30,8 @@ public class C01_TryCatch {
             ongorulen exception gerceklestiginde
             calismasisni istedigimiz kodlar
          */
+
+
     }
 }
 
