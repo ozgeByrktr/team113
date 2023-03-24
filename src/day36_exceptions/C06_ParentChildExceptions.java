@@ -29,7 +29,7 @@ public class C06_ParentChildExceptions {
             Eger kodumuzda birden fazla exception ihtimali varsa
             ve bu exception'lar arasinda parent-child iliskisi varsa
             1- Ya sadece parent'i yazariz
-               cunu parent exception, child exception'lari da kapsar
+               cunku parent exception, child exception'lari da kapsar
             2- Veya ikisini de yazmak istiyorsak
                once child exception'i
                sonra parent exception'i yazmaliyiz

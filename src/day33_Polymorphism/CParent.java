@@ -4,4 +4,12 @@ public class CParent {
     void method(){
 
     }
+    void method2(){
+
+    }
+
+    void method3(){
+
+    }
+
 }
