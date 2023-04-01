@@ -25,6 +25,7 @@ public class C04_Iterator {
         // cift olan sayilari silin
         for (int i = 0; i < sayilar.size() ; i++) {
             if(sayilar.get(i)%2==0){
+             //her silinen eleman icin index kaydıgından silme islemi %100 dogru olmaz .
                 sayilar.remove(i);
             }
         }

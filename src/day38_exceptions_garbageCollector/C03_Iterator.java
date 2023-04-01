@@ -22,8 +22,9 @@ public class C03_Iterator {
         for (int each : arr
         ) {
             each = each+3;
-            System.out.print(each + " ");
+            System.out.print(each + "   ");
         }
+        //Loop içinde olan loop icinde kalır index kullanmadan atama yapmadan kalıcılık saglanmaz.
         System.out.println("");
         System.out.println(Arrays.toString(arr));
 

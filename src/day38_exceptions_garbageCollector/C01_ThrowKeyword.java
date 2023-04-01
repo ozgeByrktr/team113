@@ -3,6 +3,7 @@ package day38_exceptions_garbageCollector;
 public class C01_ThrowKeyword {
     public static void main(String[] args) {
         // sayi 0'dan kucukse sartli satirlar calismasin
+
         int sayi =-10;
         try {
             if (sayi<0){
@@ -13,7 +14,8 @@ public class C01_ThrowKeyword {
             System.out.println("sartli calisacak satir 3");
         } catch (IllegalArgumentException e) {
             e.printStackTrace();
+            //Gozunu korkuturuz exception fırlatıp yola devam ederiz. code 0 ile calısır.
         }
-        System.out.println("yola devam");
+            System.out.println("yola devam");
     }
 }

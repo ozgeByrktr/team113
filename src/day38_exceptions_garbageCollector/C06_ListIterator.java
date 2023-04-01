@@ -13,11 +13,12 @@ public class C06_ListIterator {
         sayilar.add(4);
         sayilar.add(72);
         // tum elementleri index kullanmadan 3 artirin
-        ListIterator lit = sayilar.listIterator();
+        ListIterator lit = sayilar.listIterator(); //ChildInterface ama methodları daha fazla.
+
         while (lit.hasNext()){
             Integer sayi = (Integer) lit.next();
             lit.set(sayi+3);
         }
-        System.out.println(sayilar);
+        System.out.println(sayilar);//kalıcı olarak 3 arttırıldı.
     }
 }
